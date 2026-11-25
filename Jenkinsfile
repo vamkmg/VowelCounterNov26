@@ -9,10 +9,10 @@ pipeline {
     tools {
 
         // Selects the JDK installation named JDK21 in Jenkins Global Tool Configuration.
-        jdk 'JDK21'
+        jdk 'JDK27'
 
         // Selects the Maven installation named Maven3 in Jenkins Global Tool Configuration.
-        maven 'Maven3'
+        maven 'Maven3.10.1'
 
     // Ends the tools configuration block.
     }
